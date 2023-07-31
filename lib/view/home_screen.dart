@@ -193,6 +193,7 @@ class _HomeScreenState extends State<HomeScreen> {
       );
 
       debugPrint("Try ${document.toString()}");
+      debugPrint("TryNew");
       return document;
     } on AppwriteException catch(e) {
       debugPrint("AppwriteException ${e.toString()}");
